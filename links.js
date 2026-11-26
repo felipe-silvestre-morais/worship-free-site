@@ -1,7 +1,7 @@
 // Add the final installer and giving URLs here when they are available.
 const destinations = {
-  windows: "",
-  macos: "",
+  windows: "https://github.com/felipe-silvestre-morais/worship-free-site/releases/download/v0.1.0/WorshipFree-Windows-setup.exe",
+  macos: "https://github.com/felipe-silvestre-morais/worship-free-site/releases/download/v0.1.0/WorshipFree-macOS.dmg",
   donate: "",
 };
 
