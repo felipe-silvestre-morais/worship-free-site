@@ -158,6 +158,21 @@ figcaption { margin-top: .8rem; font-size: .9rem; color: var(--muted); }
 .presenting-note h3 { flex: none; font-size: 1.28rem; }
 .presenting-note p { max-width: 72ch; color: var(--muted); }
 
+.walkthrough { border-top: 1px solid var(--rule); background: var(--paper); }
+.walkthrough-frame {
+  margin-top: clamp(1.5rem, 3.2vw, 2.65rem);
+  padding: .4rem;
+  border: 1px solid var(--rule);
+  border-radius: 1rem;
+  background: var(--surface);
+  box-shadow: var(--frame-shadow);
+}
+.walkthrough-frame video { display: block; width: 100%; height: auto; aspect-ratio: 8 / 5; border-radius: .6rem; background: var(--ink); }
+.walkthrough-transcript { margin-top: 1.15rem; max-width: 65ch; color: var(--muted); }
+.walkthrough-transcript summary { width: fit-content; color: var(--accent-text); font-weight: 700; cursor: pointer; }
+.walkthrough-transcript ol { margin-block: .7rem 0; padding-left: 1.4rem; }
+.walkthrough-transcript li + li { margin-top: .35rem; }
+
 .remote { overflow: hidden; border-block: 1px solid #dce2de; background: var(--sage); }
 .remote-inner { display: grid; grid-template-columns: .83fr 1.17fr; align-items: center; gap: clamp(2.5rem, 6.8vw, 6.4rem); padding-block: clamp(4rem, 7.6vw, 7rem); }
 .remote-copy > p:not(.section-label) { max-width: 45ch; margin-top: 1.25rem; color: var(--muted); font-size: 1.13rem; }
